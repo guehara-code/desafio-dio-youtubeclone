@@ -1,0 +1,266 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+
+nav {
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+}
+
+.menu-right {
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.menu-icon {
+    height: 20px;
+    width: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    align-content: justify-content;
+    
+}
+
+.icon-bar {
+    height: 6px;
+    width: 18px;
+    background-color: white;
+   
+    border-top: 3px black solid;
+    margin-left: 3px;
+    margin-right: 3px;
+
+    
+}
+
+.logo {
+    width: 90px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.search {
+    width: 450px;
+    display: flex;
+
+}
+
+.search-field {
+    width: 348px;
+    height: 40px;
+   
+    border: 1px #CCCCCC solid;
+}
+
+.search-icon {
+    width: 57px;
+    height: 40px;
+    border: 1px #CCCCCC solid;
+}
+
+iframe {
+    width: 100%;
+    max-width: 952px;
+    
+}
+
+.mag-circle {
+    margin-top: 0.6rem;
+    margin-left: 1.2rem;
+    width: 1rem;
+    height: 1rem;
+    border: 2px black solid;
+    border-radius: 1rem;
+
+
+}
+
+.mag-line {
+    height: 1px;
+    width: 7px;
+    border-bottom: 2px black solid;
+    transform: rotate(45deg) translateY(-1.65rem) translateX(1.4rem);
+  
+}
+
+.menu-icons-left {
+    display: flex;
+}
+
+.record-icon {
+    width: 45px;
+    height: 34px; 
+}
+
+.record-icon img {
+    margin-top: 5px;
+}
+
+.notification-icon {
+    width: 45px;
+    height: 34px; 
+}
+
+.notification-icon img {
+    margin-top: 3px;
+    width: 28px;
+    height: 28px; 
+    object-fit: contain;
+}
+
+.account-icon {
+    width: 34px;
+    height: 34px;
+    margin-right: 15px;
+    
+}
+
+.account-icon img {
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+    
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+
+}
+.main-page {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+.video-window {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.left-list {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.item-list {
+    display: flex;
+    margin-bottom: 1rem;
+    margin-left: 1rem
+
+}
+
+.img-list img {
+    width: 11rem;
+}
+
+.info-list {
+    display: flex;
+    flex-direction: column;
+    width: 13rem;
+    margin-left: 1rem;
+
+}
+
+.info-list h1 {
+    font-size: 1rem;
+    font-family: Roboto;
+    width: 13rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.info-list p {
+    font-family: Roboto;
+    font-size: 0.8rem;
+    color: #515151;
+    width: 13rem;
+    margin-bottom: ;
+
+}
+
+.video-title {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+.barra-info {
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.button-barra {
+    display: flex;
+    align-items: center;
+}
+
+.button-icon {
+    border: none;
+    margin-right: 5px;
+}
+
+.barra-info-left {
+    display: flex;
+    
+}
+.barra-info-left div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.barra-info-left img {
+    object-fit: contain;
+    margin-right: 10px;
+
+}
+.barra-info-left h1 {
+    font-family: Roboto;
+    font-size: 1rem;
+}
+.barra-info-left p {
+    font-family: Roboto;
+    font-size: 1rem;
+    color: #515151;
+    font-weight: 400;
+}
+
+.inscreva {
+    background-color: #CC0000;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    width: 10rem;
+    border: none;
+    border-radius: 2px;
+}
+
+.detail-p {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.descrip-p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    color: #515151;
+}
